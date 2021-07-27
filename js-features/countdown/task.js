@@ -1,8 +1,8 @@
 
-var timer1;
-var a = 0;
-var b = 0;
-var c = 59;
+let timer1;
+let a = 0;
+let b = 0;
+let c = 59;
 obr();
 function obr(){
 	document.getElementById("timer").innerHTML = "0"+a + ":" +"0"+b + ":" + c;
