@@ -1,10 +1,18 @@
-textarea {
-  max-width: 100%;
-  width: 100%;
-  display: block;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.clear__button {
+  margin-top: 20px;
   padding: 10px 20px;
-  margin: 0 0 20px 0;
-  font-family: Golos, Arial, sans-serif;
-  border: 1px solid #e2e2e2;
-  box-sizing: border-box;
+  border-radius: 5px;  
+  color: #ffffff;
+  background: #e00000;
+  cursor: pointer;
+}
+
+.clear__button:hover {
+  opacity: 0.7;
 }
