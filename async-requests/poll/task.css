@@ -2,10 +2,14 @@ body {
   font-family: Arial;
 }
 
-.card {
-  width: 625px;
+.poll__answers {
+  display: none;
 }
 
-.poll__title {
-  margin-bottom: 20px;
+.poll__answers_active {
+  display: block;
+}
+
+.stat__value {
+  font-weight: bold;
 }
